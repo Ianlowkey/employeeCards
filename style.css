@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 440px;
+  margin: 170px auto;
+}
+
+.grid {
+  display: grid;
+  margin: 0;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-wrapper {
+  width: 100%;
+  background: #fff4e6;
+  border-radius: 5px;
+}
+
+.title {
+  line-height: 80px;
+  text-align: center;
+  background: #ffc078;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.emp-card {
+  width: 100%;
+  padding: 10px;
+  margin: 40px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.emp-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.06);
+}
+
+.emp-card-details {
+  padding: 5px;
+  border-radius: 10px;
+  background: #ffe8cc;
+}
+
+.emp-header {
+  text-align: center;
+  background: #ffe8cc;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.emp-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+.emp-card li {
+  list-style: none;
+  text-align:justify;
+  gap: 10px;
+  row-gap: 10px;
+  padding: 5px;
+  background: #fff4e6;
+}
